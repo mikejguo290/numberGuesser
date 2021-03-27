@@ -47,6 +47,7 @@ const advanceRound=()=>{currentRoundNumber++;};
 
 // part 7. test code with sample inputs
 
+/*
 console.log( compareGuesses(3,0,3)) // expect true
 console.log( compareGuesses(3,3,3)) // expect true
 console.log( compareGuesses(1,3,3)) // expect false
@@ -58,4 +59,5 @@ console.log(`human score is ${humanScore}, computer score is ${computerScore}`);
 
 advanceRound();
 advanceRound();
-console.log(currentRoundnumber); //expect 3
+console.log(currentRoundNumber); //expect 3
+*/
