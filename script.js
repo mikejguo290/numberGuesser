@@ -7,7 +7,7 @@ let currentRoundNumber = 1;
 // part 3. generateTarget function to generate a random integer between 0 and 9. 
 
 const generateTarget=()=>{
-    return Math.floor(Math.random()*9);
+    return Math.floor(Math.random()*10);
 };
 
 // part 8. function to return absolute distance between two numbers.
@@ -51,6 +51,7 @@ const advanceRound=()=>{currentRoundNumber++;};
 console.log( compareGuesses(3,0,3)) // expect true
 console.log( compareGuesses(3,3,3)) // expect true
 console.log( compareGuesses(1,3,3)) // expect false
+console.log( compareGuesses(3,5,4)) // expect true
 
 updateScore('human');
 console.log(`human score is ${humanScore}, computer score is ${computerScore}`); //expect 1, 0

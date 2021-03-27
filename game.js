@@ -89,8 +89,12 @@ const handleValueChange = value => {
     addButton.removeAttribute('disabled');
   } else if (value > 9) {
     addButton.setAttribute('disabled', true);
+    alert('input value has to be less than or equal to 9.');
+    humanGuessInput.value=null;
   } else if (value <= 0) {
     subtractButton.setAttribute('disabled', true);
+    alert('input value has to be greater than or equal to 0.')
+    humanGuessInput.value=null;
   }
 }
 
